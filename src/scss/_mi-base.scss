@@ -5,7 +5,7 @@
 body,
 html {
     font-size: $bfs;
-    hyphens: auto; 
+    hyphens: auto;
 }
 
 
@@ -14,6 +14,22 @@ html {
 /* Headlines & Texts
 -----------------------------------------------------------------------------*/
 
+/*doc
+---
+title: Typografie (MI Base)
+name: typography
+category: Base CSS
+---
+
+Dies sind die Größen aller Überschriften für MI Base.
+
+```html_example_table
+<h1>h1 25px</h1>
+
+<h2>h2 20px</h2>
+```
+
+*/
 h1{
     font-weight: bold;
     font-size: rem-calc(25px);
@@ -28,7 +44,22 @@ h1, h2, h3, h4{
     line-height: 110%;
 }
 
+/*doc
+---
+title: Typografie Mobil (MI Base)
+name: typography_mobile
+category: Base CSS
+---
 
+Dies sind die Größen aller Überschriften für MI Base auf mobilen Geräten.
+
+```html_example_table
+<h1>h1 40px</h1>
+
+<h2>h2 31.5px</h2>
+```
+
+*/
 @media screen and #{breakpoint(medium)} {
     p, li, td, th{
         font-size: $bfs * 1.25;
@@ -37,7 +68,7 @@ h1, h2, h3, h4{
     h1{
         font-size: rem-calc(40px);
     }
-    
+
     h2{
         font-size: rem-calc(31.5px);
     }

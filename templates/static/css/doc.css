@@ -136,3 +136,27 @@ table, table tr, table td, table th {
 table th {
   font-weight: bold;
 }
+
+.mi-blau {
+  background-color: #4952e1
+}
+
+.mi-pink {
+  background-color: #dd1166
+}
+
+.mi-gruen {
+  background-color: #00AD2F
+}
+
+.mi-lila {
+  background-color: #9313ce
+}
+
+.mi-black {
+  background-color: #231f20
+}
+
+.mi-grau {
+  background-color: #aaaaaa
+}

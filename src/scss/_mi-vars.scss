@@ -4,6 +4,41 @@
 // Base Fontsize
 $bfs: 16px;
 
+/*doc
+---
+title: MI Farben
+name: mi_colors
+category: Base CSS
+---
+Die MI Farben:
+<div class="line txtC">
+    <div class="col cols6 ">
+      <div class="docSwatch mi-blau"></div>
+      <code>#4952e1</code>
+    </div>
+    <div class="col cols6 ">
+      <div class="docSwatch mi-pink"></div>
+      <code>#dd1166</code>
+    </div>
+    <div class="col cols6 ">
+      <div class="docSwatch mi-gruen"></div>
+      <code>#00AD2F</code>
+    </div>
+    <div class="col cols6">
+      <div class="docSwatch mi-lila"></div>
+      <code>#9313ce</code>
+    </div>
+    <div class="col cols6">
+      <div class="docSwatch mi-black"></div>
+      <code>#231f20</code>
+    </div>
+    <div class="col cols6 lastCol">
+      <div class="docSwatch mi-grau"></div>
+      <code>#aaaaaa</code>
+    </div>
+</div>
+
+*/
 // MI Colors
 // ---------
 $mi-blau:  #4952e1;
@@ -15,6 +50,22 @@ $mi-grau:  #aaaaaa;
 
 // MI Fonts
 // ---------
+/*doc
+---
+title: MI Fonts
+name: fonts
+category: Base CSS
+---
+
+Dies sind die Schriftarten der MI
+
+```
+family-primary: PT Sans
+
+family-headlines: Roboto Slab
+```
+
+*/
 $family-primary: "PT Sans";
 $family-headlines: "Roboto Slab";
 
@@ -27,5 +78,3 @@ $from-left: 100px;
 // MI Borders
 // ---------
 $mi-border-small: 3px;
-
-

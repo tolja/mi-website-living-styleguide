@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
 
-    <title>My Style Guide </title>
+    <title>MI Styleguide basics</title>
     <link rel="shortcut icon" href="static/brick.png" />
 
     <!-- Styleguide CSS -->
@@ -12,13 +12,13 @@
     <link rel="stylesheet" href="static/css/github.css">
 
     <!-- CSS to be documented -->
-    <link rel="stylesheet" href="build/css/screen.css">
+    <link rel="stylesheet" href="./build/css/screen.css">
 
     <!-- Main libraries -->
-    <script src="http:////cdnjs.cloudflare.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-    <script src="http:////cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.4/underscore-min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.4/underscore-min.js"></script>
     <!-- component js and init scripts -->
-    <script src="build/script/components.js"></script>
+    <script src="./build/script/components.js"></script>
 
 </head>
 
@@ -26,7 +26,7 @@
     <header class="header pbn" role="banner">
       <div class="backgroundHighlight typeReversed1">
         <div class="container">
-          <h1 class="h2 mvs">My Style Guide</h1>
+          <h1 class="h2 mvs">MI Styleguide</h1>
         </div>
       </div>
       <div class="backgroundLowlight typeReversed1">
@@ -34,10 +34,9 @@
           <span>
             <ul class="docNav listInline">
               <!-- Add you pages here -->
-              <li><a href="index.html">Intro</a></li>
-              <li><a href="base_css.html">Base CSS</a></li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="base_css.html">Basic Elements</a></li>
               <li><a href="components.html">Components</a></li>
-              <li><a href="javascript.html">Javascript</a></li>
             </ul>
           </span>
         </div>
@@ -54,7 +53,7 @@
               <div class="boxBody pan">
                 <ul class="componentList listBorderedHover">
                   
-                    <li><a href="#button">Buttons</a></li>
+                    <li><a href="#alert">Alert</a></li>
                   
                 </ul>
               </div>
@@ -62,17 +61,23 @@
           </div>
 
           <div class="main col cols20 lastCol">
-<h1 id="button" class="styleguide">Buttons</h1>
-<p class="styleguide">Button styles can be applied to any element. Typically you&#39;ll want
-to use either a <code class="styleguide">&lt;button&gt;</code> or an <code class="styleguide">&lt;a&gt;</code> element:</p><p class="styleguide"><code class="styleguide">html_example &lt;button class=&quot;btn btnDefault&quot;&gt;Click&lt;/button&gt; &lt;a
-class=&quot;btn btnDefault&quot; href=&quot;trulia.com&quot;&gt;Trulia!&lt;/a&gt;</code></p><p class="styleguide">If your button is actually a link to another page, please use the
-<code class="styleguide">&lt;a&gt;</code> element, while if your button performs an action, such as
-submitting a form or triggering some javascript event, then use a
-<code class="styleguide">&lt;button&gt;</code> element.</p>      </div>
+<h1 id="alert" class="styleguide">Alert</h1>
+<div class="codeExample">
+  <div class="exampleOutput">
+        <div class='alert'>Hello</div>
+
+  </div>
+  <div class="codeBlock">
+    <div class="highlight">
+      <pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">'alert'</span><span class="nt">&gt;</span>Hello<span class="nt">&lt;/div&gt;</span></pre>
+    </div>
+  </div>
+</div>
+      </div>
     </div>
   </section>
   <footer>
-    The source code for this style guide is licensed under the MIT license.
+    
   </footer>
 </div>
 <script>

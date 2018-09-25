@@ -61,8 +61,6 @@ var _del = require('del');
 
 var _del2 = _interopRequireDefault(_del);
 
-var lunr = require("lunr");
-
 var fs = require("fs");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
